@@ -1,0 +1,4 @@
+Git fue creado por Linus Torvalds para controlar los cambios del código fuente del kernel de Linux.
+Se deben de configurar el usuario, el correo, y la rama por default.
+Un repositorio es el lugar apartado en el que se guarda todo el código del proyecto, hay dos tipos de repositorios, el repositorio local que es el que se encuentra dentro del dispositivo, y el repositorio remoto que se encuentra en otra ubicación diferente a lad el dispositivo en la que se está trabajando.
+Una vez dentro del repositorio, usamos git init para iniciar el repositorio de git.
