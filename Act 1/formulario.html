@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <p>Ir a la <a href="index.html">página de inicio</a></p>
+        <p>Ir a la <a href="formulario.html">página de formulario</a></p>
+    </div>
+    <h1>Contacto</h1>
+    <form target="_self" method="get">
+        <label for="nombre">Nombre <input type="text" name="nombre" placeholder="nombre"></label>
+        <label for="correo">Correo <input type="mail" name="correo" placeholder="correo"></label>
+        <b>Genero</b>
+        <label for="genero">Masculino <input type="radio" name="genero" placeholder="genero"></label>
+        <label for="genero">Femenino <input type="radio" name="genero" placeholder="genero"></label>
+        <label for="contrasena">Contraseña <input type="password" name="contrasena" placeholder="contrasena"></label>
+        <label for="comentarios">Comentarios <textarea name="comentarios" id="comentarios" placeholder="comentarios"></textarea></label>
+        <label for="ciudad">Ciudad <select name="ciudad" id="ciudad">
+            <option value="guadalajara">Guadalajara</option>
+            <option value="zapopan">Zapopan</option>
+            <option value="tonala">Tonalá</option>
+            <option value="otra">Otra</option>
+        </select></label>
+        <label for="contratacion">Me interesa contratarte <input type="checkbox" name="contratacion" id="contratacion"></label>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

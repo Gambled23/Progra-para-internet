@@ -1,3 +1,7 @@
 .nav p{
     display: inline;
 }
+
+label{
+    display: block;
+}
