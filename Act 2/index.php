@@ -13,7 +13,7 @@
 </head>
 <body>
     <h1>Contacto</h1>
-    <form method="get">
+    <form method="post">
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" id="nombre">
 
@@ -28,6 +28,12 @@
 
     <?php
     echo "<h1>Prueba</h1>";
+    if (isset($_POST['nombre'])) { //Para validar que el formulario se haya enviado, y no es una variable vacía
+        $nombre = $_POST['nombre'];
+        echo "<p>Hola " . $nombre . " gracias por tu mensaje" . "</p>";
+        echo "<h2>Email: " . $_POST['email'] . "</h2>";
+        echo "<h2>Mensaje: " . $_POST['mensaje'] . "</h2>";
+    }
     ?>
 </body>
 </html>
