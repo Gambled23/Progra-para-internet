@@ -1,6 +1,6 @@
 <?php
 // Basic connection settings
-$databaseHost = '172.22.250.138';
+$databaseHost = '10.243.0.2';
 $databaseUsername = 'gambled';
 $databasePassword = '0806';
 $databaseName = 'prueba';
